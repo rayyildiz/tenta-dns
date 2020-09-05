@@ -2,6 +2,8 @@ module tenta-dns
 
 go 1.14
 
+replace github.com/milosgajdos83/tenus v0.0.3 => github.com/milosgajdos/tenus v0.0.3
+
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/armon/go-radix v1.0.0 // indirect
@@ -24,6 +26,7 @@ require (
 	github.com/mattn/go-colorable v0.1.6
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/miekg/dns v1.1.29
+	github.com/milosgajdos83/tenus v0.0.3
 	github.com/mitchellh/mapstructure v0.0.0-20170523030023-d0303fe80992 // indirect
 	github.com/muesli/cache2go v0.0.0-20200423001931-a100c5aac93f
 	github.com/oschwald/maxminddb-golang v1.7.0
